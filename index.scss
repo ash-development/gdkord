@@ -1565,39 +1565,6 @@ ul[class*="channelAttachmentArea-"] {
     background: linear-gradient(transparent, black);
 }
 
-@keyframes chat_box {
-    10% {
-        background: linear-gradient(var(--channeltextarea-background) 50%, rgba(var(--green), 0.04) 100%);
-    }
-    20% {
-        background: linear-gradient(var(--channeltextarea-background) 50%, rgba(var(--green), 0.08) 100%);
-    }
-    30% {
-        background: linear-gradient(var(--channeltextarea-background) 50%, rgba(var(--green), 0.12) 100%);
-    }
-    40% {
-        background: linear-gradient(var(--channeltextarea-background) 50%, rgba(var(--green), 0.16) 100%);
-    }
-    50% {
-        background: linear-gradient(var(--channeltextarea-background) 50%, rgba(var(--green), 0.2) 100%);
-    }
-    60% {
-        background: linear-gradient(var(--channeltextarea-background) 50%, rgba(var(--green), 0.16) 100%);
-    }
-    70% {
-        background: linear-gradient(var(--channeltextarea-background) 50%, rgba(var(--green), 0.12) 100%);
-    }
-    80% {
-        background: linear-gradient(var(--channeltextarea-background) 50%, rgba(var(--green), 0.08) 100%);
-    }
-    90% {
-        background: linear-gradient(var(--channeltextarea-background) 50%, rgba(var(--green), 0.04) 100%);
-    }
-    100% {
-        background: var(--channeltextarea-background);
-    }
-}
-
 .channelTextArea-rNsIhG.channelTextArea-2VhZ6z {
     & > .scrollableContainer-2NUZem {
         animation-name: chat_box;
